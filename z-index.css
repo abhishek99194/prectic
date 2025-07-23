@@ -1,0 +1,34 @@
+.a1{
+    background-color:aqua;
+    position: absolute;
+    z-index: 1;
+    top: 450px;
+    left: 400px;
+    box-shadow: 10px 10px 15px rgb(23, 77, 77);     
+}
+.a2{
+    background-color: red;
+    position: absolute;
+    z-index: 2;
+    top: 380px;
+    left: 470px;
+    box-shadow: 10px 10px 15px rgb(68, 20, 20);
+
+}
+.a3{
+    background-color: greenyellow;
+    position: absolute;
+    z-index: 3;
+    top: 310px;
+    left: 540px;
+    box-shadow: 10px 10px 15px rgb(53, 77, 16);
+}
+.a4{
+    background-color: rgb(255, 157, 8);
+    position: absolute;
+    z-index: 4;
+    top:240px ;
+    left: 610px;
+    box-shadow: 10px 10px 15px rgb(53, 37, 14);
+
+}

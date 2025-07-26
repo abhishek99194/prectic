@@ -1,0 +1,28 @@
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    
+    /* color: black; */
+    border: 2px double black;
+     margin-left:500px ;
+      transition: all 3s ease-in;
+      margin: 300px;
+      /* transition-timing-function: steps(5); */
+       /* ease , ease-in , ease-out ,ease-in-out */
+}
+ .box:hover{
+    background-color: red;
+    background-image: url(https://m.media-amazon.com/images/I/61gSZidZmvL.jpg);
+    background-size: cover;
+    background-position: center;
+    /* transform: rotate(20deg) scale(2,2); */
+    /* transform: scale(2,2); */
+    transform: rotate(360deg);
+    /* transform: skew(-45deg) rotate(30deg); */   /*transform:skew(-45deg) ; */
+    color: yellowgreen;
+    border-radius: 50%;
+    /* border: 5px dashed aqua; */
+    /* transform: translate(200px,200px) rotate(45deg); */
+    /* transform: translateY(-25px) ; */
+}

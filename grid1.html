@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .comtainer{
+            height: 100vh;
+            width: 100vw;
+            background-color: blueviolet;
+            display: grid;
+            gap: 10px;
+            grid-template-columns: repeat(2 ,1fr);
+            grid-template-rows: repeat(4,1fr);
+
+        }
+        .box{
+            height: 1fr;
+            width: 1fr;
+            background-color: red;
+        }
+        .item1{
+            grid-column-start: 1;
+            grid-column-end:4;
+        }
+        .item2{
+            grid-row-start: 2;
+            grid-row-end: 4;
+        }
+         .item3{
+            grid-row-start: 3;
+            grid-row-end: 5;
+        }
+        .link{
+            font-family: cursive;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="comtainer">
+        <div class="box item1" style="text-align: center; font-size: 50px;"> header</div>
+        <div class="box item2">
+            <h1>main</h1>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque, assumenda. Aut, placeat impedit aliquid facilis saepe debitis expedita, blanditiis ab hic repellat nisi eaque labore nesciunt. Corrupti quasi labore dolor impedit dolore! Facilis ipsa ea beatae ipsam iusto assumenda, minus, quam sint placeat eos dolorem tempora inventore libero repellat debitis dolore perferendis reiciendis, delectus nulla. Voluptatibus, dolores placeat. Ab accusamus eveniet labore itaque praesentium esse laborum architecto ad ut nesciunt fuga magni velit aspernatur, voluptas iste veritatis ex ipsam nihil recusandae ratione porro. Maxime inventore rerum animi facere laborum veniam incidunt a commodi. Repudiandae error expedita exercitationem qui laudantium culpa accusantium, dolor maiores magnam voluptas quisquam odit, iste aliquid incidunt cumque at suscipit id tempora. Dolore dignissimos nam ullam quia aliquid eaque maiores maxime aliquam ex, debitis ab accusantium velit minima. Earum voluptatibus numquam nam accusantium consequuntur eius, doloribus nobis libero vitae, quibusdam cupiditate quidem aliquid sunt iusto dolore accusamus quasi obcaecati illum omnis, ipsam aliquam. Nisi tempora delectus voluptates facere corrupti consectetur, nemo accusantium iste quos? Id, vitae quas suscipit ipsam corporis, quidem in aperiam odio deserunt doloremque cumque? Rerum repellat aut, voluptatibus quas officia quam doloremque neque omnis maxime possimus sit provident suscipit nobis fugit perspiciatis repudiandae molestias!
+           
+        </div>
+        <div class="box">
+            <a href="" target="_blank" rel="noopener noreferrer" class="link">  LINK</a>
+        </div>
+        <div class="box"></div>
+        <div class="box"></div> <div class="box"></div>
+        <div class="box item3"></div> </div>
+        
+    </body>
+</html>

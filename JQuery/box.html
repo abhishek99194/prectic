@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="jquery-3.7.1.js"></script>
+   
+</head>
+<body>
+    <div class="box"></div>
+    <button onclick="slide1()">slide Up</button>
+    <button onclick="slide2()">slide Down</button>
+    <button onclick="slide3()">slide Toggle</button>
+    <button onclick="fade1()"> fade In</button>
+    <button onclick="fade2()"> fade Out</button>
+    <button onclick="fade3()"> fade To</button>
+    <button onclick="fade4()"> fade Toggle</button>
+
+    <script>
+        $(".box").css({
+            height:"500px",
+            width:"1000px",
+            border:"1px solid black",
+            backgroundColor:"aqua",
+            margin:"10px"
+        })
+function slide1(){
+    $(".box").slideUp(3000)
+}
+function slide2(){
+    $(".box").slideDown(2000)
+}
+function slide3(){
+    $(".box").slideToggle()
+}
+function fade1(){
+    $(".box").fadeIn(2000)
+}
+function fade2(){
+    $(".box").fadeOut(2000)
+}
+function fade3(){
+    $(".box").fadeTo("slow",0.4)
+}
+function fade4(){
+    $(".box").fadeToggle(2000)
+}
+    </script>
+</body>
+</html>

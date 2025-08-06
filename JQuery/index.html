@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .xyz{
+            color: red;
+            background-color: black;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="demo"></div>
+    <p class="abc">lorem efjsefcaljehflajfn</p>
+    <button onclick="disp()">show</button>
+    <button onclick="hidemsg()">Hide</button>
+    <button id="txt">add xyz class</button>
+    <script>
+        $("demo").html("<b>hii</b>")
+        $("p").text("<b>dvgnszjdfhbmsdhbav dchagfsadgvhnfa</b>")
+        // $("abc").css("color","blue")
+        // $("abc").css("backgroud-color","yollow")
+
+        $(".abc").css({
+            color:"blue",
+             backgroundColor:'yollow'
+        })
+        $(".xyz").css({
+            color:"red",
+            backgroundColor:'green'
+        })
+        function disp(){
+            $("p").show()
+        }
+        function hidemsg(){
+            $("p").hide()
+        }
+        $("#txt").clikc(function(){
+            $("p").removeAttr('style').removeClass('abc').addClass('xyz')
+            // $("p").removeAttr('style')
+            // $("p").removeClass('acb')
+            // $("p").addClass('xyz')
+        })
+    </script>
+</body>
+</html>
